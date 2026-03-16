@@ -19,9 +19,11 @@ class MyClass:
     def __init__(self, name, age):
         self.name = name
         self.age = age
+
     def get_name(self):
         """Gets name of object"""
         return self.name
+    
     def get_age(self):
         """Gets age of object"""
         return self.age
@@ -32,3 +34,4 @@ def divide(a, b):
     if b == 0:
         return "Error"
     return a / b
+
