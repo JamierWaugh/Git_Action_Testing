@@ -13,4 +13,4 @@ def test_divide_by_zero():
     divide(10, 0)
 
 def test_greet():
-    assert greet("Jamier") == "Hello, Jamier"
+    assert greet("Jamier") == "Hello, Jamier!"

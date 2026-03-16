@@ -29,6 +29,6 @@ class MyClass:
 
 def divide(a, b):
     """Returns division of a and b, with a 0 check"""
-    if b != 0:
+    if b == 0:
         return "Error"
     return a/b
