@@ -2,22 +2,25 @@ X = 10
 Y = 20
 Z = X+Y
 
-"""
-Adds numbers and returns them
-"""
+
 def add_numbers(a,b):
+    """
+    Adds numbers and returns them
+    """
     return a+b
 
-"""
-Greets the user with a hello message
-"""
+
 def greet(name):
+    """
+    Greets the user with a hello message
+    """
     print("Hello, " + name + "!")
 
-"""
-Class used to store user name and age
-"""
+
 class MyClass:
+    """
+    Class used to store user name and age
+    """
     def __init__(self,name,age):
         self.name=name
         self.age=age
@@ -26,10 +29,11 @@ class MyClass:
     def get_age(self):
         return self.age
 
-"""
-Returns division of a and b, with a 0 check
-"""
+
 def divide(a, b):
+    """
+    Returns division of a and b, with a 0 check
+    """
     if b != 0:
         return "Error"
     return a/b
