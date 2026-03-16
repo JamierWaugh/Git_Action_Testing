@@ -6,7 +6,7 @@ Z = X + Y
 
 def add_numbers(a, b):
     """Adds numbers and returns them"""
-    return a + z
+    return a + b
 
 
 def greet(name):
