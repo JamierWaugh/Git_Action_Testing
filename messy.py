@@ -1,24 +1,24 @@
 """Messy python code to test pylint github action"""
 X = 10
 Y = 20
-Z = X+Y
+Z = X + Y
 
 
-def add_numbers(a,b):
+def add_numbers(a, b):
     """Adds numbers and returns them"""
-    return a+b
+    return a + b
 
 
 def greet(name):
     """Greets the user with a hello message"""
-    print("Hello, " + name + "!")
+    return "Hello, " + name + "!"
 
 
 class MyClass:
     """Class used to store user name and age"""
-    def __init__(self,name,age):
-        self.name=name
-        self.age=age
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
     def get_name(self):
         """Gets name of object"""
         return self.name
@@ -31,4 +31,4 @@ def divide(a, b):
     """Returns division of a and b, with a 0 check"""
     if b == 0:
         return "Error"
-    return a/b
+    return a / b
