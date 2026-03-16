@@ -1,10 +1,10 @@
-from messy import add, divide, greet
+from messy import add_numbers, divide, greet
 
 def test_add():
-    assert add(2, 3) == 5
+    assert add_numbers(2, 3) == 5
 
 def test_add_negative():
-    assert add(-1, 1) == 0
+    assert add_numbers(-1, 1) == 0
 
 def test_divide():
     assert divide(10, 2) == 5
